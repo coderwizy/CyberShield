@@ -34,8 +34,10 @@ bash CyberShield.sh
 
 
 ### ⚠️ Disclaimer
-This tool is made for **educational and ethical purposes only**.  
-Usage must comply with local laws and respect user privacy.
+This tool is made for
+**educational and ethical purposes only**.  
+Usage must comply with local
+laws and respect user privacy.
 
 **JAI HIND 🇮🇳**
 
