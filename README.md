@@ -49,13 +49,6 @@ Designed to help fight cyber abuse, protect user privacy, and automate abuse rep
 - Customizable network tools
 
 ---
-graph TD
-    A[User Interface (CLI)] --> B[Command Modules]
-    B --> C[Reporting Engine]
-    B --> D[Vulnerability Scan Engine]
-    C --> E[Platform APIs]
-    D --> F[Local Logs]
-    F --> G[JSON DB]
 
 ### ⚙️ How to Run
 
