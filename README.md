@@ -1,3 +1,10 @@
+pie
+    title Reports per Platform
+    "Instagram" : 50
+    "Telegram" : 25
+    "Facebook" : 15
+    "Others" : 10
+
 # 🛡️ CyberShield
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
