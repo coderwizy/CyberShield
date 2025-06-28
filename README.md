@@ -49,41 +49,6 @@ Designed to help fight cyber abuse, protect user privacy, and automate abuse rep
 - Customizable network tools
 
 ---
-pie
-    title Vulnerability Coverage
-    "Password Weakness" : 35
-    "Open Ports" : 25
-    "Outdated Software" : 20
-    "Config Risks" : 20
-
-pie
-    title Reports by Platform
-    "Instagram" : 45
-    "Telegram" : 30
-    "Facebook" : 15
-    "Other" : 10
-gantt
-    title Attack Mitigation Timeline
-    dateFormat  YYYY-MM-DD
-    section Blocking Attempts
-    Instagram Abuse Block    :done,    des1, 2025-06-10, 3d
-    Phishing Detection       :active,  des2, 2025-06-13, 2d
-    API Abuse Protection     :         des3, 2025-06-15, 5d
-    DDOS Mitigation          :         des4, after des3, 3d
-
-   flowchart TD
-    A[Start] --> B[Authenticate User]
-    B --> C{Valid User?}
-    C -- Yes --> D[Show CLI Dashboard]
-    C -- No --> E[Exit]
-    D --> F[Choose Reporting Module]
-    F --> G[Prepare Abuse Report]
-    G --> H[Send to Platform API]
-    H --> I[Show Success & Save Logs]
-    I --> J[Done]
-
-    ![Security: High](https://img.shields.io/badge/Security-High-brightgreen.svg)
-![Reliability: 100%](https://img.shields.io/badge/Reliability-100%25-blue.svg)
 ### ⚙️ How to Run
 
 ```bash
