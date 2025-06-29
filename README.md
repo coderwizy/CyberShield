@@ -1,8 +1,9 @@
-flowchart LR
-A[Instagram Reports] --> B[50%]
-A --> C[Telegram Reports: 25%]
-A --> D[Facebook Reports: 15%]
-A --> E[Others: 10%]
+```mermaid
+graph TD
+A[Start] --> B[Check Mermaid]
+B --> C[Works?]
+C -->|Yes| D[Great!]
+C -->|No| E[Fallback to text/image]
 
 # 🛡️ CyberShield
 
