@@ -1,9 +1,8 @@
-pie
-    title Reports per Platform
-    "Instagram" : 50
-    "Telegram" : 25
-    "Facebook" : 15
-    "Others" : 10
+flowchart LR
+A[Instagram Reports] --> B[50%]
+A --> C[Telegram Reports: 25%]
+A --> D[Facebook Reports: 15%]
+A --> E[Others: 10%]
 
 # 🛡️ CyberShield
 
