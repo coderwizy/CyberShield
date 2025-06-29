@@ -1,10 +1,3 @@
-```mermaid
-graph TD
-A[Start] --> B[Check Mermaid]
-B --> C[Works?]
-C -->|Yes| D[Great!]
-C -->|No| E[Fallback to text/image]
-
 # 🛡️ CyberShield
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
